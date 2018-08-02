@@ -190,6 +190,10 @@ header {
 
 @media all and (max-width:64em){
 
+  .header {
+    background-attachment: initial;
+  }
+
     .center-intro {
         text-align: left;
       }
