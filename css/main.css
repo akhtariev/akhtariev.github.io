@@ -97,7 +97,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .center-intro {
@@ -188,11 +188,11 @@ header {
 
 
 
-@media all and (max-width:64em){
+@media all and (max-width:32em){
 
-  .header {
+  /* .header {
     background-attachment: initial;
-  }
+  } */
 
     .center-intro {
         text-align: left;
@@ -214,7 +214,7 @@ header {
       }
       
       .center-intro h2 {
-        font-size: 140%;
+        font-size: 100%;
         margin: 0.1em;
       }
 
