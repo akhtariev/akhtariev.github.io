@@ -49,7 +49,7 @@
             </div>
 
             <div class="btn-box">
-                <a class="btn" href="#">Meet me!</a>
+                <a class="btn" id="btn-scroll" href="#">Meet me!</a>
             </div>
 
 
@@ -70,53 +70,6 @@
 
     </header>
 
-
-
-    <!-- <section class="about-me">
-        <div class="row">
-                <h1>About Me</h1>
-        </div>
-        <div class="row">
-
-            <div class="col span-1-of-2 photo-box">
-                <img src="img/me-gradient.jpg" class="me" alt="Roman's Photo"
-            </div>
-
-
-            <div class="col span-1-of-2 about-box">
-
-                dddd
-                <!-- <div class="about-text">
-                        
-                        <h2>I'm a third year BUCS student @ UBC Sauder. My interest lies in web and mobile development, primarily back-end. Whenever I don't code, you can find me playing ice-hockey or snowboarding.</h2>
-                </div> -->
-
-
-    <!-- </div>
-
-    </div> -->
-    <!-- </section>
-
-    <section class="about-me">
-        <div class="row">
-            <h2>&mdash; About Me &mdash;</h2>
-        </div>
-        <div class="row about-info">
-            <div class="col span-1-of-2 photo-box">
-                <img src="img/me-gradient.jpg" alt="Omnifood app on iPhone" class="me">
-            </div>
-
-            <div class="col span-1-of-2 about-text-box">
-                <div class="text-container">
-                    <p>I'm a third year BUCS student @ UBC Sauder. My interest lies in web and mobile development, primarily
-                        back-end. Whenever I don't code, you can find me playing ice-hockey or snowboarding.</p>
-                </div>
-
-
-            </div>
-        </div>
-    </section> -->
-
     <section class="about-me">
         <div class="row">
             <h2>&mdash; About Me &mdash;</h2>
@@ -130,61 +83,31 @@
             </div>
 
             <div class="col span-1-of-2 about-text">
-                <p>I'm a third year BUCS student @ UBC Sauder. I am originally from Russia where I used to be a professional alpine snowboarder. Two years ago I have come to Vancouver, Canada to pursue my academic and career goals. Soon I am going to start my first Co-Op work term. My interest lies in web and mobile development, primarily back-end.
-                    Whenever I don't code, you can find me playing ice-hockey or snowboarding. Check out what I have been up to recently!</p>
+                <p>I'm a third year BUCS student @ UBC Sauder. I am originally from Russia where I used to be a professional
+                    alpine snowboarder. Two years ago I have come to Vancouver, Canada to pursue my academic and career goals.
+                    Soon I am going to start my first Co-Op work term. My interest lies in web and mobile development, primarily
+                    back-end. Whenever I don't code, you can find me playing ice-hockey or snowboarding. Check out what I
+                    have been up to recently!</p>
             </div>
 
         </div>
     </section>
 
 
-    <!-- <section class="about-me clearfix">
-
-            <div class="row">
-                    <h2>&mdash; About Me &mdash;</h2>
-                </div>
-
-        <ul class="about-showcase">
-            <li>
-                .
-
-            </li>
-            <li>
-                
-                    <figure class="my-photo">
-                            <img src="img/me-gradient.jpg" alt="Roman's Photo">
-                        </figure>
-
-            </li>
-
-            <li>
-                    
-                    .
-
-            </li>
-
-            <li>
-
-                    <p>I'm a third year BUCS student @ UBC Sauder. My interest lies in web and mobile development, primarily
-                            back-end. Whenever I don't code, you can find me playing ice-hockey or snowboarding.</p>
-
-            </li>
-            <li>
-                .
-
-
-            </li>
-        </ul>
-
-    </section> -->
-
-
 
 
     <script src="js/type.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 
     <script type="text/javascript">
         setTimeout(type, 1000);
+
+        jQuery("#btn-scroll").click(function () {
+            jQuery('html,body').animate({
+                scrollTop: $(".about-me").offset().top
+            }, 1000);
+        });
     </script>
 </body>
 
