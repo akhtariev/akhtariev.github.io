@@ -227,47 +227,55 @@ header {
     }
 }
 
+/* ----------------------------------------------------*/
+/* FOOTER*/
+/* ----------------------------------------------------*/
 
-/* @media all and (max-width:64em){
+footer {
+  background-color: #112d4e;
+  padding: 50px;
+  font-color: #f9f7f7;
+}
 
-    .center-intro {
-        text-align: left;
-        
-      }
+.footer-info,
+.contact-info {
+  list-style: none;
+}
 
-    .center-intro h1,
-    .icon-row,
-    .align-type-left {
-        margin-left: 100px;
-    }
+.footer-info {
+  float: left;
+}
+
+.contact-info {
+  float: right;
+}
+
+.footer-info li,
+.contact-info li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-info li a:link,
+.footer-info li a:visited,
+.contact-info li a:link,
+.contact-info li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #f9f7f7;
     
-    .icon-white {
-        margin: 0 0.3em 0 0;
-      }
+}
+
+.fa-envelope,
+.fa-whatsapp,
+.fa-file {
+    transition: color 0.2s;
+}
+
+.fa-envelope:hover,
+.fa-whatsapp:hover,
+.fa-file:hover {
+  color: #3f72af;
+}
 
 
-
-    .icon-row {
-        font-size: 35px;
-        text-align: left;
-    }  
-
-    .icon-white {
-        margin: 0 0 0 0.3em;
-      }
-    
-
-    .center-intro h1 {
-        font-size: 200%;
-    
-      }
-      
-      .center-intro h2 {
-        font-size: 140%;
-        margin: 0.1em;
-      }
-
-      .align-type-left {
-        width: 100%;
-    }
-} */
