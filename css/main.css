@@ -350,7 +350,7 @@ footer {
   left: 30px;
   border: medium solid #f9f7f7;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f9f7f7; transparent transparent;
+  border-color: transparent #f9f7f7; 
 }
 
 .right::after {
@@ -363,6 +363,31 @@ footer {
   position: relative;
   border-radius: 6px;
 }
+
+/*LINKS*/
+.edu-info li a:link,
+.edu-info li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #112d4e;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #112d4e;
+  margin-bottom: 1px;
+  transition: color 0.3s, border-color 0.3s;
+
+}
+
+.edu-info li a:hover,
+.edu-info li a:active {
+  color: #3f72af;
+  border-bottom: 1px solid transparent;
+}
+
+.edu-info {
+  list-style: none;
+}
+
+
 
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */
@@ -396,4 +421,3 @@ footer {
     }
   }
 
-  
