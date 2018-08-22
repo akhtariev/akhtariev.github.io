@@ -119,7 +119,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 .center-intro {
@@ -183,6 +183,7 @@ header {
   color: #dbe2ef;
   margin: 0 20px;
 }
+
 
 .icon-white:hover,
 .icon-white:active {
