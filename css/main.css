@@ -104,6 +104,7 @@ body {
   font-size: 110%;
   word-spacing: 2px;
   letter-spacing: 1px;
+  margin-bottom: 15px;
 
 
 }
@@ -292,6 +293,17 @@ footer {
   color: #3f72af;
 }
 
+/* ----------------------------------------------------*/
+/* Experience*/
+/*https://www.w3schools.com/howto/howto_css_timeline.asp*/
+/* ----------------------------------------------------*/
+
+
+.experience {
+  background-color: #dbe2ef;
+  padding: 100px 20px;
+}
+
 
 /* ----------------------------------------------------*/
 /* EDUCATION*/
@@ -394,10 +406,9 @@ footer {
   border: 0;
   color: #112d4e;
   padding-bottom: 1px;
-  border-bottom: 1px solid #112d4e;
   margin-bottom: 1px;
-  -webkit-transition: color 0.3s, border-color 0.3s;
-  transition: color 0.3s, border-color 0.3s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 
 }
 
@@ -469,12 +480,12 @@ footer {
   color: #112d4e;
   padding: 20px;
   text-align: center;
-  height: 450px;
+  height: 458px;
 }
 
 .proj-img {
   width: 90%;
-  max-height: 341px;
+  max-height: 290px;
 }
 
 
@@ -487,7 +498,7 @@ footer {
 }
 
 .skills {
-  background-color: #dbe2ef;
+  background-color: #f9f7f7;
   padding: 100px 20px;
   color: #112d4e;
 }
@@ -510,7 +521,7 @@ footer {
 .dot {
   height: 25px;
   width: 25px;
-  background-color: #f9f7f7;
+  background-color: #dbe2ef;
   border-radius: 50%;
   display: inline-block;
 }
@@ -533,7 +544,7 @@ footer {
 
 .awards {
   padding: 100px 20px;
-  background-color: #f9f7f7;
+  background-color: #dbe2ef;
 }
 
 .list-awards {

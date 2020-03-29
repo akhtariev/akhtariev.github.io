@@ -1,5 +1,5 @@
 var i = 0;
-var txt = '& Computer Science';
+var txt = '& Software Developer';
 var speed = 125;
 var delay = 2000;
 
